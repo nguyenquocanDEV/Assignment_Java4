@@ -38,7 +38,7 @@ public class ForgotPassServlet extends HttpServlet {
 		    }else {
 			EmailSendForm email = new EmailSendForm();
 			email.setFrom("nguyenquocan2001789@gmail.com");
-			email.setFromPassword("meoyeunhim201666");
+			email.setFromPassword("nhappasswordvao");
 			email.setTo(emailAddress);
 			email.setSubject("Forgot Password Function");
 			StringBuilder sb = new StringBuilder();
